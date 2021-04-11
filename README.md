@@ -2,11 +2,9 @@
 This Utility can search any specified Key/Secret in all KeyVault present in your subscription. The search result than can be exported to an excel file and you can also update the secret directly from the Utility UI.
 
 ![image.png](./Images/Image1.png)
-## How to Use?
+## Steps
 
-- Download the zip and unzip the folder to your local machine.
-
-- Click on Run to launch the application
+- Click on Run.vbs to launch the application
 
 - Login to Azure from the screen.
 
