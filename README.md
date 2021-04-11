@@ -1,15 +1,23 @@
-# Project
+## Introduction
+This Utility can search any specified Key/Secret in all KeyVault present in your subscription. The search result than can be exported to an excel file and you can also update the secret directly from the Utility UI.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+![image.png](./Images/Image1.png)
+## How to Use?
 
-As the maintainer of this project, please make a few updates:
+- Download the zip and unzip the folder to your local machine.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+- Click on Run to launch the application
 
+- Login to Azure from the screen.
+
+- Once logged in enter Subscription ID, Secret/Key, Value to be searched & Keyvault Name and click **Search**
+
+- Utility will start searching secret/key in the KeyVault and Result be displayed in the Result Box as shown
+
+- Result can be Exported to CSV file and file will be saved on Desktop with the name **scanresult.csv**
+
+- You can select what all keys in the result that needs to be updated with new value and pass the value to the textbox and click update
+)
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
