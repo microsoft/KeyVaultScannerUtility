@@ -8,6 +8,10 @@ This Utility can search any specified Key/Secret in all KeyVault present in your
 ```
    PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
+- If Az Module is not already Installed, Install by running below command
+```
+   PM> Install-Module -Name Az -Force
+```
 - If Az.Keyvault Module is not already Installed, Install by running below command
 ```
    PM> Install-Module -Name Az.keyvault -Force
