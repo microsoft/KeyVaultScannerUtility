@@ -2,6 +2,21 @@
 This Utility can search any specified Key/Secret in all KeyVault present in your subscription. The search result than can be exported to an excel file and you can also update the secret directly from the Utility UI.
 
 ![image.png](./Images/Image1.png)
+
+## Prerequisite  
+- Start Windows PowerShell with the "Run as administrator" option and Set Execution Policy of current user
+```
+   PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+```
+- If Az.Keyvault Module is not already Installed, Install by running below command
+```
+   PM> Install-Module -Name Az.keyvault -Force
+```
+- You should have access to the secrets in KeyVault
+
+
+   [Assign Access Policy Portal](https://docs.microsoft.com/en-us/azure/key-vault/general/assign-access-policy-portal).
+
 ## Steps
 
 - Click on Run.vbs to launch the application
