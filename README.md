@@ -6,7 +6,9 @@ This Utility can search any specified Key/Secret in all KeyVault present in your
 ## Prerequisite  
 - Start Windows PowerShell with the "Run as administrator" option and Set Execution Policy of current user
 ```
-   PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+   PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+   PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+   
 ```
 - If Az Module is not already Installed, Install by running below command
 ```
