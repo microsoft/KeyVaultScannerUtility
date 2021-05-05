@@ -4,7 +4,7 @@ This Utility can search any specified Key/Secret in all KeyVault present in your
 ![image.png](https://github.com/microsoft/KeyVaultScannerUtility/blob/main/KeyVaultScannerUtility/Scanner.png)
 
 ## Prerequisite  
-- Start Windows PowerShell with the "Run as administrator" option and Set Execution Policy of current user
+- Start Windows PowerShell with the "Run as administrator" option and Set Execution Policy 
 ```
    PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
    PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
