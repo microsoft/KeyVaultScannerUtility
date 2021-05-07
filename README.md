@@ -1,6 +1,10 @@
 ## Introduction
 This Utility can search any specified Key/Secret in all KeyVault present in your subscription. The search result than can be exported to an excel file and you can also update the secret directly from the Utility UI.
 
+- Light weight : PowerShell based utility.
+- Secure : Runs on user context and doesn't collect any telemetry. 
+
+
 ![image.png](https://github.com/microsoft/KeyVaultScannerUtility/blob/main/KeyVaultScannerUtility/Scanner.png)
 
 ## Prerequisite  
