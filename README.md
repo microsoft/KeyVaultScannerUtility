@@ -7,20 +7,27 @@ This Utility can search any specified Key/Secret in all KeyVault present in your
 
 ![image.png](https://github.com/microsoft/KeyVaultScannerUtility/blob/main/KeyVaultScannerUtility/Scanner.png)
 
-## Prerequisite  
+## Prerequisite 
+
+- Requires Powershell Core or Powershell 7 and above
+
+
+     [Install Powershell core 7.0](https://aka.ms/powershell-release?tag=stable)
+
+
 - Start Windows PowerShell with the "Run as administrator" option and Set Execution Policy 
 ```
    PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
    PM> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
    
 ```
-- If Az Module is not already Installed, Install by running below command
+- If Az Module is not already Installed, Install by running below command on Powershell core
 ```
    PM> Install-Module -Name Az -Force
 ```
-- If Az.Keyvault Module is not already Installed, Install by running below command
+- If Az.Keyvault Module is not already Installed, Install by running below command on Powershell core
 ```
-   PM> Install-Module -Name Az.keyvault -Force
+   PM> Install-Module -Name Az.keyvault -Force -AllowClobber
 ```
 - You should have access to the secrets in KeyVault
 
